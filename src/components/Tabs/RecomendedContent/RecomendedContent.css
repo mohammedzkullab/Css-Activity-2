@@ -1,0 +1,28 @@
+.recomended-card{
+    padding:10px;
+    border-radius: 25px;
+}
+.recomended-content-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.offer-name p{
+    font-size: 18px;
+}
+.recomended-content-top img{
+    width: 260px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.recomended-content-place{
+    color: var(--light-gray);
+    display: flex;
+    align-items: center;
+}
+.recomended-content-place .location{
+    color: rgb(234,107,115);
+    margin-right: 5px;
+}

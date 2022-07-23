@@ -1,0 +1,55 @@
+.offers-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.offers-card-top img {
+  width: 293px;
+  height: 273px;
+  border-radius: 50px;
+}
+.offers-card-top p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 7px;
+  color: var(--light-gray);
+}
+.offers-card-body {
+  padding: 20px 20px 0 20px;
+  text-align: start;
+  line-height: 1.5;
+}
+.offer-details {
+  display: flex;
+  align-items: center;
+}
+.offer-details_type {
+  margin-right: 10px;
+  padding: 3px 20px;
+  border-radius: 50px;
+  background-color: #fcddec;
+  color: #f178b6;
+}
+.offer-details_duration {
+  color: var(--light-gray);
+}
+.offer-name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.offer-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-price span {
+  font-size: 18px;
+  color: var(--light-gray);
+}

@@ -50,6 +50,10 @@ ul li {
   background-color: var(--primery-blue);
   color: var(--white);
 }
+.white-btn{
+  background-color: var(--white);
+  color: var(--primery-blue);
+}
 /* general style */
 
 /* hero style */
@@ -270,14 +274,81 @@ ul li {
 /* recomended style */
 
 /* Comments style */
-.comments{
+.comments {
   margin-top: 200px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-
 }
-.comment-indecators{
-  
+.comment-indecators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.comment-indecator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid var(--primery-blue);
+  border-radius: 15px;
+  color: var(--primery-blue);
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
 }
 /* Comments style */
+
+/* Register style */
+.register-holder{
+  position: relative;
+}
+.register-holder .overlay{
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 100px;
+  margin: 100px 0;
+  padding: 114px ;
+  background: url("https://source.unsplash.com/1180x500");
+}
+.register p {
+  z-index: 100;
+  font-size: 48px;
+  font-weight: 600;
+  color:var(--white);
+  max-width: 743px;
+}
+.register .btn{
+  z-index: 100;
+  margin-top: 20px;
+}
+/* Register style */
+
+/* footer style */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  color: var(--light-gray);
+}
+footer ul {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul li a{
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.75);
+}
+/* footer style */
+

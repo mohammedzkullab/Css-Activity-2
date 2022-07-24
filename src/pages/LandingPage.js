@@ -6,10 +6,11 @@ import SearchContent from "../components/Tabs/SearchContent/SearchContent";
 import OfferCard from "../components/Tabs/OffersContent/OfferCard";
 import RecomendedContent from "../components/Tabs/RecomendedContent/RecomendedContent";
 import Comment from "../components/Comment/Comment";
+import NavLink from "../components/Navbar/NavLink/NavLink";
 import { FaHotel } from "react-icons/fa";
 import { GiCommercialAirplane } from "react-icons/gi";
-import { FaChevronLeft} from "react-icons/fa";
-import { FaChevronRight} from "react-icons/fa";
+import { FaChevronLeft } from "react-icons/fa";
+import { FaChevronRight } from "react-icons/fa";
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -266,10 +267,35 @@ const LandingPage = () => {
           />
         </div>
         <div className="comment-indecators">
-            <FaChevronLeft />
-            <FaChevronRight />
+          <div className="comment-indecator">
+            <FaChevronLeft className="indecator" />
+          </div>
+          <div className="comment-indecator">
+            <FaChevronRight className="indecator" />
+          </div>
         </div>
         {/* Comments */}
+
+        {/* Register */}
+        <div className="register-holder">
+          <div className="register">
+            <p>Don’t Miss The 50% Discount if You register Today</p>
+            <button className="btn white-btn">Register Today</button>
+          </div>
+          <div className="overlay"></div>
+        </div>
+        {/* Register */}
+        <footer>
+          <div>
+            <p>© 2022 Treloo LLC - All right reserved.</p>
+          </div>
+          <ul >
+            <NavLink linkpath="#Review">Review</NavLink>
+            <NavLink linkpath="#Tips">Tips</NavLink>
+            <NavLink linkpath="#Alerts">Alerts</NavLink>
+            <NavLink linkpath="#Blog">Blog</NavLink>
+          </ul>
+        </footer>
       </div>
       {/* Container */}
     </div>

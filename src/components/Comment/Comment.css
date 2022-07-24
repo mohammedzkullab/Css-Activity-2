@@ -22,6 +22,7 @@
   color: var(--light-gray);
 }
 .comment-image {
+  display: flex;
   position: relative;
   width: fit-content;
   margin: auto;

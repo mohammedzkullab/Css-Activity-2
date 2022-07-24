@@ -4,15 +4,19 @@ import TabNavItem from "../components/Tabs/TabNavItem";
 import TabContent from "../components/Tabs/TabContent";
 import SearchContent from "../components/Tabs/SearchContent/SearchContent";
 import OfferCard from "../components/Tabs/OffersContent/OfferCard";
+import RecomendedContent from "../components/Tabs/RecomendedContent/RecomendedContent";
+import Comment from "../components/Comment/Comment";
 import { FaHotel } from "react-icons/fa";
 import { GiCommercialAirplane } from "react-icons/gi";
-
+import { FaChevronLeft} from "react-icons/fa";
+import { FaChevronRight} from "react-icons/fa";
 import "./LandingPage.css";
-import RecomendedContent from "../components/Tabs/RecomendedContent/RecomendedContent";
+
 const LandingPage = () => {
   const [activeTab, setActiveTab] = useState("tab1");
   const [offersActiveTab, setOffersActiveTab] = useState("offerTab1");
-  const [recomendedActiveTab, setrecomendedActiveTab] = useState("recomendedTab1");
+  const [recomendedActiveTab, setrecomendedActiveTab] =
+    useState("recomendedTab1");
   return (
     <div className="page-wrapper">
       {/* Navbar */}
@@ -247,6 +251,25 @@ const LandingPage = () => {
           </div>
         </div>
         {/* Recomended */}
+
+        {/* Comments */}
+        <div className="comments">
+          <Comment
+            content="Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible."
+            writer="mohammed"
+            slogen="Happy Trello"
+          />
+          <Comment
+            content="Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible."
+            writer="mohammed"
+            slogen="Happy Trello"
+          />
+        </div>
+        <div className="comment-indecators">
+            <FaChevronLeft />
+            <FaChevronRight />
+        </div>
+        {/* Comments */}
       </div>
       {/* Container */}
     </div>

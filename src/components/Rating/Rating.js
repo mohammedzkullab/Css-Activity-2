@@ -1,9 +1,9 @@
 import "./Rating.css"
 import { FaStar } from "react-icons/fa";
-const Rating = ({ rate }) => {
+const Rating = (props) => {
   return (
-    <span>
-      <FaStar className="rate-star" /> {rate}
+    <span className={"star-holder "+props.className} >
+      <FaStar className="rate-star" /> {props.rate}
     </span>
   );
 };

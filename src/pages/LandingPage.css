@@ -254,7 +254,7 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:transparent;
+  background: transparent;
   padding: 5px;
   border-radius: 10px;
 }
@@ -262,10 +262,22 @@ ul li {
   margin: 0 20px;
   color: var(--light-gray);
 }
-.recomended-tabs ul .tab-active{
+.recomended-tabs ul .tab-active {
   background-color: var(--white);
   color: var(--primery-blue);
 }
 
-
 /* recomended style */
+
+/* Comments style */
+.comments{
+  margin-top: 200px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+.comment-indecators{
+  
+}
+/* Comments style */

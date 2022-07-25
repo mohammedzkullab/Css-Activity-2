@@ -27,7 +27,9 @@
 }
 .up .icon{
     transform: rotate(-0.5turn);
-
+}
+.plane{
+    color: #3E86f5;
 }
 .search-btn{
     display: flex;

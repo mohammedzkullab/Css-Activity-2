@@ -22,14 +22,14 @@ const SearchContent = () => {
     </div>
     <div className="tab-content">
       <div className="tab-content-para">
-        <p className="up">Leave  <FaPlane /></p>
+        <p className="up">Leave  <FaPlane className="plane"/></p>
         <p className="down">23 Jan , Sat </p>
       </div>
       <div className="middle">
         <BsCalendarDate />
       </div>
       <div className="tab-content-para">
-        <p className="up">Return   <FaPlane className="icon"/></p>
+        <p className="up">Return   <FaPlane className="icon plane"/></p>
         <p className="down">14 jun , Thu </p>
       </div>
     </div>

@@ -1,0 +1,8 @@
+.dropdown {
+  border: 0 !important; /*Removes border*/
+  appearance: none;
+  -webkit-appearance: none; /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  background: #fff;
+  outline: none;
+}

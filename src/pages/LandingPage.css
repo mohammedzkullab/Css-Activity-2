@@ -31,12 +31,10 @@ a {
   margin: auto;
   max-width: 1180px;
 }
-@media screen and (max-width:1180px) {
-.container {
-  max-width: 1100px
-}
-
-  
+@media screen and (max-width: 1180px) {
+  .container {
+    max-width: 1100px;
+  }
 }
 ul li {
   list-style: none;
@@ -57,7 +55,7 @@ ul li {
   background-color: var(--primery-blue);
   color: var(--white);
 }
-.white-btn{
+.white-btn {
   background-color: var(--white);
   color: var(--primery-blue);
 }
@@ -143,6 +141,7 @@ ul li {
   border-radius: 0 30px 30px;
   margin-top: -21px;
   z-index: 100;
+  min-height: 220px;
 }
 .TabContent {
   display: flex;
@@ -193,6 +192,7 @@ ul li {
   justify-content: space-between;
   width: 100%;
   padding-top: 30px;
+  min-height: 485px;
 }
 /* Offers style */
 
@@ -309,14 +309,14 @@ ul li {
 /* Comments style */
 
 /* Register style */
-.register-holder{
+.register-holder {
   position: relative;
 }
-.register-holder .overlay{
+.register-holder .overlay {
   border-radius: 100px;
   background: rgba(0, 0, 0, 0.4);
 }
-.register{
+.register {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -324,24 +324,24 @@ ul li {
   text-align: center;
   border-radius: 100px;
   margin: 100px 0;
-  padding: 114px ;
+  padding: 114px;
   background: url("https://source.unsplash.com/1180x500");
 }
 .register p {
   z-index: 100;
   font-size: 48px;
   font-weight: 600;
-  color:var(--white);
+  color: var(--white);
   max-width: 743px;
 }
-.register .btn{
+.register .btn {
   z-index: 100;
   margin-top: 20px;
 }
 /* Register style */
 
 /* footer style */
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -349,13 +349,12 @@ footer{
   color: var(--light-gray);
 }
 footer ul {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
-footer ul li a{
+footer ul li a {
   margin: 0 10px;
   color: rgba(0, 0, 0, 0.75);
 }
 /* footer style */
-

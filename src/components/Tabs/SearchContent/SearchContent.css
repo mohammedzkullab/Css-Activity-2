@@ -1,46 +1,65 @@
-.tab-content{
-    border: 1px solid rgb(197, 197, 197);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+.tab-content {
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
-.tab-content-para{
-    display: flex;
-    flex-direction: column;
+.tab-content-para {
+  display: flex;
+  flex-direction: column;
 }
-.tab-content-para .up{
-    color: rgb(197, 197, 197);
+.tab-content-para .up {
+  color: rgb(197, 197, 197);
 }
-.tab-content-para .down{
-    font-size: 18px;
+.tab-content-para .down,
+.down .dropdown,
+.down .dropdown option {
+  font-size: 18px;
 }
-.middle{
-    border: 1px dashed rgb(197, 197, 197); 
-    border-radius: 50%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(197, 197, 197);
+.tab-content-para .down {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
 }
-.up .icon{
-    transform: rotate(-0.5turn);
+.tab-content-para .down .chevron {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  font-weight: 400;
 }
-.plane{
-    color: #3E86f5;
+.middle {
+  border: 1px dashed rgb(197, 197, 197);
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(197, 197, 197);
 }
-.search-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    font-size: 40px;
-    background: #3E86f5;
-    opacity: 80%;
-    color: #fff;
-    border-radius: 40px;
-    border: none;
-    cursor: pointer;
+.down input {
+  font-size: 18px;
+  border: none;
+  color: #000;
+}
+.up .icon {
+  transform: rotate(-0.5turn);
+}
+.plane {
+  color: #3e86f5;
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  background: #3e86f5;
+  opacity: 80%;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
 }

@@ -35,7 +35,7 @@ const SearchContent = () => {
             Leave <FaPlane className="plane" />
           </p>
           <p className="down">
-            <input type="date" value={new Date().toISOString()} />
+            <input type="date" />
           </p>
         </div>
         <div className="middle">
@@ -46,7 +46,7 @@ const SearchContent = () => {
             Return <FaPlane className="icon plane" />
           </p>
           <p className="down">
-            <input type="date" value={new Date().toISOString()} />
+            <input type="date" />
           </p>
         </div>
       </div>
